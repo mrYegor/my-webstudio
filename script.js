@@ -4,4 +4,13 @@ console.log({alive: true});
 
 console.log('yegor');
 
-console.log([1, 'str', false]);
+function myFunc(elem) {
+    console.dir(elem)
+};
+
+var foo = {
+    alive: true,
+    age: 42
+};
+
+myFunc(foo);
